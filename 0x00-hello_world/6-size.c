@@ -11,7 +11,7 @@ int main(void)
 char acharacter;
 int ainteger;
 long along;
-long long alonglong;
+long long int alonglong;
 float afloat;
 
 printf("size of a char: %lu bytes(s)\n", sizeof(acharacter));
