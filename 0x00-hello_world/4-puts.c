@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
- *main - Entry Point
- *description - print a string
- * Return 0: (Success)
+/**
+ * main - Entry Point
+ * description: prints a string
+ * Return: 0
  */
 int main(void)
 {
