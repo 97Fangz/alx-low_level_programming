@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+/**
+* main - Entry Point
+* description: prints alphabet in lowercase then uppercase
+* Return: 0
+*/
+
+int main(void)
+{
+char alph;
+for (char = 'a'; char <= 'z'; char++)
+{
+putchar(alph);
+}
+for (char = 'A'; char <= 'Z'; char++)
+{ 
+putchar(alph);
+}
+putchar('\n');
+return (0);
+}
+
+
