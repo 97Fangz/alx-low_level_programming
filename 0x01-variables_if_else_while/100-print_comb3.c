@@ -11,16 +11,20 @@ int main(void)
 int i;
 int j;
 
-for (i = 0; i <= 8; i++)
+for (i = 0; i <= 7; i++)
 {
-	for (j = 1; j <= 9; j++)
+	for (j = 1; j <= 8; j++)
 	{
 	if (i < j)
 	{
 	putchar(i);
 	putchar(j);
 	}
-
+	if(i < )
+	{
+	putchar(',');
+	putchar(' ');
+	}
 	}
 }
 putchar('\n');
