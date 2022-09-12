@@ -20,7 +20,7 @@ for (i = 58; i <= 66; i++)
 	putchar(i);
 	putchar(j);
 	}
-	if (i <= 66 && i <= 67)
+	if (i != 66 && i != 67)
 	{
 	putchar(',');
 	putchar(' ');
