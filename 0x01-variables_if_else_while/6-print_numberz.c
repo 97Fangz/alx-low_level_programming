@@ -12,7 +12,7 @@ int main(void)
 
 	for (btn = 0; btn < 10; btn++)
 	{
-	putchar(btn);
+		putchar(btn);
 	}
 	putchar('\n');
 	return (0);
