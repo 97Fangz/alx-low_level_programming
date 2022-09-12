@@ -8,11 +8,11 @@
 
 int main(void)
 {
-	int btn;
+	int n;
 
-	for (btn = 0; btn < 10; btn++)
+	for (n = 0; n < 10; n++)
 	{
-		putchar(btn);
+		putchar(n);
 	}
 	putchar('\n');
 	return (0);
