@@ -10,9 +10,13 @@ int main(void)
 {
 	int alph;
 for (alph = 'a'; alph <= 'z'; alph++)
-	if (alph == 'e'  || alph == 'q' )
+{
+	if (alph == 'e'  || alph == 'q')
+	{
 		continue;
+	}
 putchar(alph);
+}
 putchar('\n');
 return (0);
 }
