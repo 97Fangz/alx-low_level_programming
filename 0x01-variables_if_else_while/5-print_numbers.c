@@ -11,7 +11,7 @@ int main(void)
 int btn;
 for (btn = 0; btn < 10; btn++)
 {
-putchar(btn);
+printf("%d", btn);
 }
 putchar('\n');
 return (0);
