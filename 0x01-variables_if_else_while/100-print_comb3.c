@@ -20,7 +20,7 @@ for (i = 0; i <= 7; i++)
 	putchar(i);
 	putchar(j);
 	}
-	if(i < )
+	if (i <= 7 && i <= 8)
 	{
 	putchar(',');
 	putchar(' ');
