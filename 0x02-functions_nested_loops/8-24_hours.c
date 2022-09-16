@@ -23,7 +23,7 @@ else
 {
 printf("%d:", hr);
 }
-if (min < 60)
+if (min < 10)
 {
 printf("0%d\n", min);
 }
