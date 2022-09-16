@@ -2,7 +2,7 @@
 
 /**
  * _abs - computes the absolute value of an integer
- *
+ *@n: character to be checked
  * Return: n if positive else return -n
  */
 
