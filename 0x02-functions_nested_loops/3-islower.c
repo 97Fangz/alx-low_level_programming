@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _islower - check description
+ * _islower - check description
  * @c: - character to be checked
  * Return: nothing
  */
