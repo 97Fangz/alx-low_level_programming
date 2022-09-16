@@ -17,19 +17,19 @@ for (min = 0; min < 60; min++)
 {
 if (hr < 10)
 {
-printf("0%d", hr);
+printf("0%d:", hr);
 }
 else
 {
-printf("%d", hr);
+printf("%d:", hr);
 }
 if (min < 60)
 {
-printf("0%d", min);
+printf("0%d\n", min);
 }
 else
 {
-printf("%d", min);
+printf("%d\n", min);
 }
 }
 }
