@@ -17,7 +17,7 @@ _putchar(i * j);
 if (i != 9)
 {
 _putchar(',');
-_putchar('.');
+_putchar(' ');
 }
 }
 _putchar('\n');
