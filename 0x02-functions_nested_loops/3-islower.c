@@ -2,9 +2,8 @@
 
 /**
  * int _islower -check description
- * @c - character to be checked
- * description: checks for lowercase character
- * return: nothing
+ * @c: - character to be checked
+ * Return: nothing
  */
 
 int _islower(int c)
