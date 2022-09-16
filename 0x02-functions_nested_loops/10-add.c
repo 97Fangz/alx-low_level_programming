@@ -3,7 +3,7 @@
 /**
  * add - adds two integers
  * @n: an integer
- * @m: added to n 
+ * @m: added to the other
  * Return: result
  */
 
