@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * jack_bauer - prints every minute of the day
@@ -16,19 +17,19 @@ for (min = 0; min < 60; min++)
 {
 if (hr < 10)
 {
-_putchar('0' + hr);
+printf("0%d", hr);
 }
 else
 {
-_putchar(hr);
+printf("%d", hr);
 }
 if (min < 60)
 {
-_putchar('0' + min);
+printf("0%d", min);
 }
 else
 {
-_putchar(min);
+printf("%d", min);
 }
 }
 }
