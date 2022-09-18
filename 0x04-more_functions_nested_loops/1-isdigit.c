@@ -2,6 +2,7 @@
 
 /**
  * _isdigit - checks for a digit
+ * @c: character to be checked
  * Return: 1 if c is a digit else return 0
  */
 
