@@ -9,7 +9,7 @@
 void more_numbers(void)
 {
 
-	int i;
+	int c;
 
 	for (c = 0;c < 10; c++)
 	{
