@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * more_numbers - prints 10 times the numbers
+ * print_most_numbers - prints 10 times the numbers
  * from zero to forteen
  * Return: void
  */
 
-void more_numbers(void)
+void print_most_numbers(void)
 {
 
 	int c;
