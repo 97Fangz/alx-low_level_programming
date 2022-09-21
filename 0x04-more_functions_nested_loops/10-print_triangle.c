@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void print_triangle - prints a triangle
+ * print_triangle - prints a triangle
  * @size: input integer
  * Return: nothing
  */
@@ -14,7 +14,7 @@ _putchar('\n');
 }
 else
 {
-int a,b;
+int a, b;
 
 for (a = 1; a <= size; a++)
 {
