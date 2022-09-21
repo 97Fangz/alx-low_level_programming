@@ -16,13 +16,9 @@ for (; i < n; i++)
 {
 for (; j < i; j++)
 {
-if (j == i)
-{
-_putchar(92);
-break;
-}
 _putchar(' ');
 }
+_putchar(92);
 _putchar('\n');
 }
 }
