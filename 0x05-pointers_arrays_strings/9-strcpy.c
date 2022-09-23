@@ -3,7 +3,7 @@
 /**
  * _strcpy - entry point
  * @dest: first integer
- * @scr: second integer
+ * @src: second integer
  * Return: 0
  */
 
