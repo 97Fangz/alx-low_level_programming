@@ -18,7 +18,7 @@ if (i == 0)
 	printf("%d", a[i]);
 else
 printf("%d", a[i]);
-if ((i != n) && (i != n + ('\1')))
+if (i < n)
 printf(", ");
 }
 _putchar('\n');
