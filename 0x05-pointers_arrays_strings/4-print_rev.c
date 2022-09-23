@@ -3,24 +3,25 @@
 /**
  * _strlen - swaps the values of two integers
  * @s: string input
- * Return: length of string
+ * Return: length of a string
  */
+
+int _strlen(char *s)
+{
+int i = 0;
+
+while (s[i])
+{
+i++;
+}
+return (i);
+}
 
 /**
  * print_rev - prints a strin in reverse
  * @s: string input
  * Return: 0
  */
-int _strlen(char *s)
-{
-int i = 0;
-
-while(s[i])
-{
-i++;
-}
-return (i);
-}
 
 void print_rev(char *s)
 {
