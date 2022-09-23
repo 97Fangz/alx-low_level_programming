@@ -1,21 +1,23 @@
 #include "main.h"
 
 /**
- * puts2 - Prints string in even intervals
- * @s: string input
+ * puts2 - Prints every other chacter of a spring
+ * @str: string input
  */
 
-void puts2(char *s)
+void puts2(char *str)
 {
-int i = 0;
+int ptr = 0, j = 0;
 
-while (s[i])
+while (str[ptr] != '\0')
 {
-if (i % 2 == 0)
-{
-_putchar(s[i]);
-i++;
+ptr++;
 }
+ptr -= 1;
+
+for(; j <= ptr; j += 2)
+{
+_putchar(str[j]);
 }
 _putchar('\n');
 }
