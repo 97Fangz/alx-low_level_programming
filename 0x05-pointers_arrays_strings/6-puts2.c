@@ -15,7 +15,7 @@ ptr++;
 }
 ptr -= 1;
 
-for(; j <= ptr; j += 2)
+for (; j <= ptr; j += 2)
 {
 _putchar(str[j]);
 }
