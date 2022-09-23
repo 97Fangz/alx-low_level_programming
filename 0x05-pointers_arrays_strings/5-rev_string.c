@@ -29,11 +29,11 @@ char today;
 int i = _strlen(s);
 int j = 0;
 
-while (j < i/2)
+while (j < i / 2)
 {
 today = s[j];
 s[j] = s[i - 1 - j];
-s[i - 1 -j] = today;
+s[i - 1 - j] = today;
 j++;
 }
 }
