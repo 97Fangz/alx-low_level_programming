@@ -14,7 +14,7 @@ int i = 0;
 
 char *appE = dest;
 
-while (*dest);
+while (*dest)
 dest++;
 
 while (*src && (i < n))
