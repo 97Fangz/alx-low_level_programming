@@ -2,10 +2,11 @@
 
 /**
  * _strncat - concentrates two strings
- * using most bytes from src
+ * description: it will use most n bytes from src
  * @dest: string to append to
  * @src: this string
  * @n: at most characters to copy from src
+ * Return: resulting pointer
  */
 
 char *_strncat(char *dest, char *src, int n)
