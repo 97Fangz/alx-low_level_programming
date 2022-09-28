@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_number - Entry Point
+ * rot13 - Entry Point
  * @n: character input
  * Return: 0
  */
