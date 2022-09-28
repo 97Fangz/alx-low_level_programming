@@ -3,13 +3,13 @@
 /**
  * _strcat - concentrates two strings
  * @dest: character one
- * src: character two
+ * @src: character two
  * Return: null
  */
 
 char *_strcat(char *dest, char *src)
 {
-char* appE = dest;
+char *appE = dest;
 
 while (*dest)
 	dest++;
