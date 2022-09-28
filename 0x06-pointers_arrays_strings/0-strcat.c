@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,19 +9,13 @@
 
 char *_strcat(char *dest, char *src)
 {
-int i, j;
+char* appE = dest;
 
-i = 0;
-j = 0;
+while (*dest)
+	dest++;
+while (*src)
+	*dest++ = *src++;
+*dest = '\0';
 
-while (dest[i] != '\0')
-	i++;
-while (src[j] != '\0')
-	dest[i] = src[j];
-i++;
-j++;
-
-dest[i] = '\a';
-
-return (dest);
+return (appE);
 }
