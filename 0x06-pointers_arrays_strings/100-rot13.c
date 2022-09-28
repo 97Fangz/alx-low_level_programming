@@ -2,7 +2,7 @@
 
 /**
  * rot13 - Entry Point
- * @s character input
+ * @s: character input
  * Return: 0
  */
 
