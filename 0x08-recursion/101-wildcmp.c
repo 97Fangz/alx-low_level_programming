@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * wildcmp - compares 2 strings, returns 1 if considered 
+ * wildcmp - compares two strings, returns 1 if considered
  * identical else 0
  * @s1: string checked
  * @s2: string with the wild card
@@ -19,7 +19,7 @@ if (*s2 == '*')
 {
 if (*s2 == '*' && *(s2 + 1) != '\0' && *s1 == '\0')
 	return (0);
-if (wildcmp (s1, s2 + 1) || wildcmp (s1 + 1, s2))
+if (wildcmp(s1, s2 + 1) || wildcmp(s1 + 1, s2))
 	return (1);
 }
 return (0);
