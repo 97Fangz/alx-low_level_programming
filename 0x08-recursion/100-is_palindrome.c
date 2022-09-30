@@ -20,7 +20,7 @@ else
  * @i: left index of string
  * @j: right index of string
  * @s: string
- * return: 1 if true else 0
+ * Return: 1 if true else 0
  */
 
 int check_palindrome(int i, int j, char *s)
