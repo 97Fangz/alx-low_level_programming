@@ -8,12 +8,13 @@
  */
 int sqrt_check(int n, int inpt)
 {
-if (inpt == n)
-	return(inpt);
+if (inpt * inpt == n)
+	return (inpt);
 else if (inpt * inpt > n)
 	return (-1);
-return(sqrt_check(n, inpt + 1));
+return (sqrt_check(n, inpt + 1));
 }
+
 /**
  * _sqrt_recursion -returns the natural square of a number
  * @n: input integer
