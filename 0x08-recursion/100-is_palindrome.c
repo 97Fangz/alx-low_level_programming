@@ -15,7 +15,8 @@ else
 }
 
 /**
- * check_palindrome - checks for palindrome
+ * check_palindrome - checks for palindrom for each left and right
+ * char in string, recursively
  * @i: left index of string
  * @j: right index of string
  * @s: string
