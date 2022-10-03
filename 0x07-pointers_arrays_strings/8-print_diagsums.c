@@ -10,17 +10,17 @@
 
 void print_diagsums(int *a, int size)
 {
-int a_, b, c, d, dg1 = 0, dg2 = 0;
+int i;
 
-for (a_ = 0; a_ <= size; a_++)
+unsigned int s, s1;
+
+s = 0;
+s1 = 0;
+
+for (i = 0; i < size; i++)
 {
-c = (size + 1) * a_;
-dg1 += *(a + c);
+s += a[(s + size * i)];
+s1 += a [(size * (i + 1)) - (i + 1)];
 }
-for (b = 1; b <= size; b++)
-{
-d = (size - 1) * b;
-dg2 += *(a + d);
-}
-printf("%d, %d\n", dg1, dg2);
+printf("%d, %d\n", s, s1);
 }
