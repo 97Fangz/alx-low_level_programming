@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
+/**
  * print_diagsums - print additions of the two diagonals
  * @a: source matrix
  * @size: size of two dimensinal matrix
