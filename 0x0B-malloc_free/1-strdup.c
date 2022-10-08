@@ -17,7 +17,7 @@ if (str == NULL)
 	return (NULL);
 for (i = 0; str[i]; i++)
 	j++;
-str2 = malloc((j + 1) * sizeof(char));
+str2 =(char *) malloc((j + 1) * sizeof(char));
 if (str2 == NULL)
 {
 	return (NULL);
