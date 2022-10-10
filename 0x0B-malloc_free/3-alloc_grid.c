@@ -3,7 +3,7 @@
 /**
  * alloc_grid - returns a pointer to a
  * @width: width of an arrray
- * @length: height of array
+ * @heigth: height of array
  * Return: pointer to an array
  */
 
@@ -14,7 +14,7 @@ int i = 0, j;
 
 if (width == 0 || height  == 0)
 	return (NULL);
-array = (int **) malloc(sizeof(int *) *height );
+array = (int **) malloc(sizeof(int *) * height);
 if (array != NULL)
 {
 for (; i < height; i++)
