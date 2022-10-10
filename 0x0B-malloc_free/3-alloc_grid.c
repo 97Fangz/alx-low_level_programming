@@ -3,7 +3,7 @@
 /**
  * alloc_grid - returns a pointer to a
  * @width: width of an arrray
- * @heigth: height of array
+ * @height: height of array
  * Return: pointer to an array
  */
 
