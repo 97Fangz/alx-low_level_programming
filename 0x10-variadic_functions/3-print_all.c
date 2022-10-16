@@ -35,7 +35,7 @@ printf("%d", n);
 
 /**
  * print_float - prints a float
- * @arg: number of arguments pointiting 
+ * @arg: number of arguments pointiting
  * to the float to be printed
  */
 
