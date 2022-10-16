@@ -26,7 +26,7 @@ printf("%c", development);
  * @arg:number of arguments pointing to
  * the integer printed
  */
-void print_nt(va_list arg)
+void print_int(va_list arg)
 {
 int n;
 n = va_arg(arg, int);
