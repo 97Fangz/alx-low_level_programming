@@ -1,8 +1,8 @@
 #ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
 
-/**
- * file: variadic_functions.h
+/*
+ * File: variadic_functions.h
  * description: contains prototypes for all functions
  */
 
@@ -11,7 +11,8 @@
 /**
  * struct printer - new struct type definining a printer
  * @symbol: represents sa data type
- * @print: function pointer to a function that prints a data type in alignment to symbol
+ * @print: function pointer to a function that
+ * prints a data type in alignment to symbol
  */
 
 typedef struct printer
