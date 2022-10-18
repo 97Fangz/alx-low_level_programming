@@ -25,7 +25,7 @@ if (ptr == NULL)
 {
 mem = malloc(new_size);
 
-if (mem == NULL);
+if (mem == NULL)
 return (NULL);
 
 return (mem);
