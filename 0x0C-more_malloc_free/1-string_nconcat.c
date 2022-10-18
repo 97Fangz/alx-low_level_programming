@@ -6,7 +6,8 @@
  * @s1: first string
  * @s2: second string
  * @n: maximum number of bytes of s2 to concentrate to s1
- * Return: NULL else if function succeeds return pointer to the concentrated space
+ * Return: NULL else if function succeeds
+ * return pointer to the concentrated space
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
