@@ -25,7 +25,7 @@ for (index = 0; s1[index]; index++)
 
 test = malloc(sizeof(char) * (len + 1));
 
-if (concat == NULL)
+if (test == NULL)
 	return (NULL);
 
 len = 0;
