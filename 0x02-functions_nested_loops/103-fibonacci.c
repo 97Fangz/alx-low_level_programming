@@ -20,7 +20,7 @@ if (j < 4000000 && (j % 2) == 0)
 {
 sum = sum + j;
 }
-next = j = k;
+next = j + k;
 j = k;
 k = next;
 }
