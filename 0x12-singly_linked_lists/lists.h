@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- * lists_s - main function
+ * struct list_s - main function
  * @str: the string
  * @len: the length
  * @next: pointer to the next node
