@@ -28,9 +28,11 @@ if (*head == NULL)
 return (new);
 }
 while (temp->next != NULL)
+{
 	temp = temp->next;
 	temp->next = new;
 	return (new);
+}
 }
 
 /**
