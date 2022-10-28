@@ -6,7 +6,7 @@
  * of a listint_t list
  * @head: pointer to the listint_t
  * @n: main integer
- * Return: address of the new element of NULL if it failed
+ * Return: address of the new element else NULL
  */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
