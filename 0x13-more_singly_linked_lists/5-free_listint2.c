@@ -4,6 +4,7 @@
 /**
  * free_listint2 - function that frees a listint_t list
  * @head: double pointer to the list
+ *
  * Return: freed list
  */
 
