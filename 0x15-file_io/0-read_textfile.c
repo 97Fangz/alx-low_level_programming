@@ -30,5 +30,7 @@ nwr = write(STDOUT_FILENO, buffer, nrd);
 
 close(f);
 
+free(buffer);
+
 return (nwr);
 }
