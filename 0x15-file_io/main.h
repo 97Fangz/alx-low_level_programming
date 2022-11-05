@@ -3,7 +3,8 @@
 
 /**
  * file: main.h
- * description: contains prorototypes for all functions written in the 0x15_file directory
+ * description: contains prorototypes for all function
+ * written in the 0x15_file directory
  */
 
 #include <sys/types.h>
